@@ -5,7 +5,7 @@ import './App.css'
 import Chats from './Chats';
 
 
-const socket=io.connect("https://simplechat-room.herokuapp.com/");
+const socket=io.connect("https://chat-app-server-flax.vercel.app/");
 
 const App = () => {
    const [username,setUsername]=useState("");
